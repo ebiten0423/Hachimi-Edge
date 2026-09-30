@@ -1,0 +1,487 @@
+hachimi: Hachimi Edge
+windows:
+  menu_open_key: 右矢印キー
+android:
+  menu_open_key: '音量上＋音量下
+
+     または左上を3回タップ'
+splash_sub:  メニューを開くには %{open_key_str} を押してください。
+loading_label: 読み込み中...
+search_filter: 検索語を入力...
+open: 開く
+cancel: キャンセル
+save: 保存
+done: 完了
+next: 次へ
+previous: 戻る
+'yes': はい
+'no': いいえ
+'on': オン
+'off': オフ
+ok: OK
+retry: 再試行
+default: 初期設定
+enable: 有効にする
+disabled: 無効
+minutes: 分
+info: 情報
+warning: 警告
+confirm_dialog_title: 確認
+soft_restart_confirm_content: ゲームを簡易再起動しますか？
+in_game_browser_confirm_content: ゲーム内ブラウザを開きますか？
+browser_dialog_title: ブラウザ
+bind_key: キーを割り当て
+edit: 編集
+remove: 削除
+add: 追加
+save_changes: 変更を保存しますか？
+back: 戻る
+portrait: 縦画面
+landscape: 横画面
+reset: リセット
+spring: 春
+summer: 夏
+fall: 秋
+winter: 冬
+cherry_blossom: 桜
+ordinal: '%{n}位'
+unknown: 不明
+menu:
+  check_for_updates:  更新を確認
+  fps_text: 'FPS: %{fps}'
+  close_menu:  メニューを閉じる
+  stats_heading:  状態
+  config_heading:  設定
+  open_config_editor:  設定エディタを開く
+  reload_config:  設定を再読み込み
+  graphics_heading:  グラフィック
+  fps_label: FPS
+  vsync_label: 垂直同期
+  stay_on_top: 最前面に表示
+  danger_zone_heading:  注意が必要な操作
+  danger_zone_warning: 以下の操作はゲームに予期しない影響を与えることがあります。注意して使用してください。
+  soft_restart:  簡易再起動
+  open_in_game_browser:  ゲーム内ブラウザを開く
+  toggle_game_ui:  ゲームの UI を表示／非表示
+  discord_rpc: Discord ステータス連携
+notification:
+  config_reloaded: 設定を再読み込みしました。
+  config_saved: 設定を保存しました。
+  config_error: 設定ファイルが破損しています。初期設定を使用します。
+  update_failed: '更新に失敗しました: %{reason}'
+  update_completed: 更新が完了しました。
+  errors_during_update: 更新中に %{count} 件のエラーが発生しました。詳しくはログを確認してください。
+  checking_for_updates: 更新を確認中...
+  github_update_unreachable: GitHub に接続できません。Codeberg を試します...
+  no_updates: 更新はありません。
+  ipc_softreset_exec: IPC 経由の簡易再起動を実行しました。
+  freeform_window_disabled_landscape: 横画面モードのため、自由サイズのウィンドウを無効にしました。
+  free_camera_unavailable_live: 既知の問題により、このライブではフリーカメラを使用できません。
+  recommended_ui_scale_applied: 推奨 UI サイズを適用しました。
+about:
+  title: このソフトについて
+  copyright: © 2024-%{year} LeadRDRK、kairusds および貢献者
+  view_license: ライセンスを見る
+  open_website: ウェブサイトを開く
+  view_source_code: ソースコードを見る
+  view_contributors: 貢献者を見る
+license:
+  title: ライセンス
+  gpl_v3_only_notice: GPL-3.0-only ライセンス本文
+  ofl_fonts_header: 'このソフトには SIL Open Font License 1.1 に基づく次のフォントが含まれます:'
+  font_inter: 'Inter: Copyright 2020 The Inter Project Authors (https://github.com/rsms/inter)'
+  font_font_awesome: 'Font Awesome Version 4.7.0: Copyright Dave Gandy (https://fontawesome.com) 2016. All rights reserved.'
+  font_m_plus_1: 'M PLUS 1: Copyright 2021 The M+ FONTS Project Authors (https://github.com/coz-m/MPLUS_FONTS)'
+  font_pretendard: 'Pretendard: Copyright (c) 2021, Kil Hyung-jin (https://github.com/orioncactus/pretendard), with Reserved Font Name ''Pretendard''.
+
+    - Copyright 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name ''Source''. Source is a trademark of Adobe in the United States and/or other countries.
+
+    - Copyright 2021 The M+ FONTS Project Authors (https://github.com/coz-m/MPLUS_FONTS), with Reserved Font Name ''M PLUS 1''.
+
+    '
+  ofl_notice: SIL OFL 1.1 ライセンス本文
+  font_alibaba_header: Alibaba PuHuiTi 3.0
+  font_alibaba_body: Copyright (c) 2020-2023 Alibaba (China) Co., Ltd. All rights reserved.
+config_editor:
+  title: 設定エディタ
+  general_tab:  一般
+  graphics_tab:  グラフィック
+  gameplay_tab:  ゲームプレイ
+  language: 言語
+  restore_defaults: 初期設定に戻す
+  disable_overlay: Hachimi の画面表示を無効化
+  disable_overlay_warning: この設定を有効にしてゲームを再起動すると、Hachimi の画面が表示されず、設定エディタも開けなくなります。 意図しない場合は、この画面を閉じて設定を無効にしてください。
+  ipv4_only: ureq で IPv4 のみ使用
+  debug_mode: デバッグモード
+  enable_file_logging: ログをファイルに記録
+  disable_auto_update_check: 自動更新の確認を無効化
+  enable_ipc: IPC を有効化
+  ipc_listen_all: すべてのアドレスで IPC を待ち受け
+  taskbar_show_progress_on_download: ダウンロードの進捗をタスクバーに表示
+  taskbar_show_progress_on_connecting: 接続中の進捗をタスクバーに表示
+  taskbar_show_progress_on_schedule_book: トレーナー手帳の進捗をタスクバーに表示
+  target_fps: 目標 FPS
+  target_fps_unfocused: 非アクティブ時の目標 FPS
+  virtual_resolution_multiplier: 仮想解像度の倍率
+  ui_scale: ゲーム UI の大きさ
+  recommended_ui_scale: 推奨 UI サイズを適用
+  gui_scale: Hachimi 画面の大きさ
+  old_config_editor: 旧設定エディタを使用
+  gui_landscape_ratio: 横画面での Hachimi 表示倍率
+  graphics_quality: 画質
+  vsync: 垂直同期
+  auto_full_screen: 自動的に全画面表示
+  freeform_window: 自由サイズのウィンドウ
+  freeform_ui_scale_auto: 自由サイズのウィンドウで UI を自動調整
+  freeform_ui_scale_auto_ratio: UI の自動調整倍率
+  full_screen_mode: 全画面表示モード
+  full_screen_mode_exclusive: 排他表示
+  full_screen_mode_borderless: 枠なしウィンドウ
+  block_minimize_in_full_screen: 全画面表示中の最小化を防止
+  resolution_scaling: 解像度の調整
+  resolution_scaling_default: 初期設定（1080p）
+  resolution_scaling_ssize: 画面サイズに合わせる
+  resolution_scaling_wsize: ウィンドウサイズに合わせる
+  window_always_on_top: ウィンドウを最前面に表示
+  story_choice_auto_select_delay: ストーリーの選択肢を自動選択するまでの時間
+  story_text_speed_multiplier: ストーリーの文字送り速度倍率
+  force_allow_dynamic_camera: ダイナミックカメラを強制的に有効化
+  free_camera: フリーカメラ
+  live_theater_allow_same_chara: ライブシアターで同じキャラを選択可能にする
+  physics_update_mode: 物理演算の更新モード
+  cyspring_mono_uncap_frame_scale: CySpring Mono のフレーム倍率制限を解除
+  hide_ingame_ui_hotkey: ゲーム UI の表示切替キー
+  hide_ingame_ui_hotkey_info: ショートカットキーでゲーム UI の表示を切り替えます。 Android では画面右上を3回タップします。 PC またはキーボードを接続した Android では既定で Insert キーです。設定で変更できます。
+  hide_ingame_ui_hotkey_bind: ゲーム UI の表示切替キーを割り当て
+  race_stat_hud: レース情報 HUD
+  race_stat_hud_toggle_button: レース情報 HUD の切替ボタン
+  race_stat_hud_toggle_key: レース情報 HUD の切替キー
+  race_stat_hud_landscapeui_portrait: 縦画面で横画面用レース情報 HUD を表示
+  race_stat_hud_draggable: レース情報 HUD をドラッグ可能にする
+  race_stat_hud_draggable_save: レース情報 HUD の移動位置を保存
+  race_stat_hud_resizable: レース情報 HUD のサイズを変更可能にする
+  race_stat_hud_width_scale: レース情報 HUD の横幅倍率
+  race_stat_hud_height_scale: レース情報 HUD の高さ倍率
+  race_stat_hud_opacity_scale: レース情報 HUD の不透明度
+  race_stat_hud_persist_clones: 複製したレース情報 HUD を保存
+  race_stat_hud_persist_selected_index: レース情報 HUD の選択キャラを保存
+  race_playback_slider: レース再生スライダー
+  race_playback_slider_always: レース再生スライダーを常に表示
+  race_playback_button: レースの一時停止／再開ボタン
+  race_playback_key_enable: レースの一時停止／再開キーを有効化
+  race_playback_key: レースの一時停止／再開キー
+  live_slider_always_show: ライブのスライダーを常に表示
+  live_playback_loop: ライブを繰り返し再生
+  champions_live_show_text: チャンピオンズミーティングのライブ表示文を変更
+  champions_live_resource_id: チャンピオンズミーティングの称号
+  champions_live_year: チャンピオンズミーティングの年
+  captions: 字幕
+  caption_lines_char_count: 字幕の1行あたりの文字数
+  caption_font_size: 字幕の文字サイズ
+  caption_bg_alpha: 字幕の背景の不透明度
+  caption_pos_x: 字幕の横位置
+  caption_pos_y: 字幕の縦位置
+  caption_color: 字幕の文字色
+  caption_outline_color: 字幕の縁取り色
+  caption_outline_size: 字幕の縁取り幅
+  disable_tap_effect: タップ時の演出を無効化
+  discord_rpc: Discord ステータス連携
+  enable_smtc: Windows のメディア操作を有効化
+  menu_open_key: メニューを開くキー
+  msaa: MSAA
+  render_scale: 描画倍率
+  aniso_level: 異方性フィルタリング
+  live_vocals_swap: ライブの歌唱担当を入れ替え
+  live_vocals_swap_character_n: キャラ %{index}
+  skill_info_dialog: 独自のスキル情報画面
+  homescreen_bgseason: ホーム画面の背景の季節
+  shadow_resolution: 影の解像度
+  hide_now_loading: Now Loading 画面を非表示
+  ui_loading_show_orientation_guide: 読み込み中の画面向き案内を非表示
+  replace_to_builtin_font: ゲーム標準のフォントを使用
+  custom_title_name: ウィンドウのタイトルを変更
+  ingame_webview: ゲーム内のリンク（お知らせ、ヘルプ、ガチャなど）を WebView で開く
+  trainer_live_landscape: めにしゅき♡ラッシュっしゅ！のライブを横画面で表示
+  force_orientation_mode: 画面の向きを固定
+theme_editor:
+  title: 画面テーマの編集
+  ui_accent_color: アクセント色
+  ui_window_fill: ウィンドウの背景色
+  ui_panel_fill: パネルの背景色
+  ui_extreme_bg_color: 入力欄の背景色
+  ui_text_color: 文字色
+  ui_window_rounding: 角の丸み
+set_keybind:
+  title: キーの割り当て
+  press_any_key: キーを押してください...
+  bound_key: '割り当てたキー: %{key}'
+race_stat_hud:
+  open_race_mechanics_confirm: ブラウザでレースの仕組みに関する資料を開きますか？（英語のみ）
+  stats: ステータス
+  speed: 速度
+  accel: 加速度
+  min_speed: 最低速度
+  stamina: スタミナ（HP）
+  phase: 区間
+  order: 順位
+  distance: 距離
+  lane: レーン
+  start_delay: スタート遅延
+  finish: ゴール
+  used_skills: 発動したスキル
+  unused_skills: 未発動のスキル
+  autoscroll: 自動スクロール
+  phase_runup: 助走
+  phase_start: 序盤
+  phase_middle: 中盤
+  phase_end: 終盤
+  phase_last: ラストスパート
+  phase_finished: ゴール済み
+  lane_inner: 内
+  lane_middle: 中
+  lane_outer: 外
+  lane_outermost: 大外
+  temptation_sashi: 差し
+  temptation_senko: 先行
+  temptation_nige: 逃げ
+  temptation_boost: 加速
+  good_start: 好スタート
+  bad_start: 出遅れ
+  start_dash: スタートダッシュ
+  clog: 前が詰まる
+  rushed: 掛かり
+  compete_fight: 競り合い
+  compete_top: 先頭争い
+  last_spurt: ラストスパート
+  run_at_full_speed: 全開スパート
+  conserve_release: 持久力温存解除
+  stamina_limit_break: スタミナ限界突破
+  stamina_keep: 持久力温存
+  compete_before_spurt: スパート前の競り合い
+  secure_lead: リード確保
+free_camera:
+  settings_title: フリーカメラ設定
+  section_general: 一般
+  section_live: ライブシアター
+  section_race: レース
+  section_keybinds: Windows のキー割り当て
+  remove_camera_effects: カメラの演出を無効化
+  live_remove_screen_effects: 画面の演出を無効化
+  live_disable_character_teleport: キャラの瞬間移動を無効化
+  live_force_all_characters_visible: すべてのキャラを常に表示
+  show_overlay: 切替用の表示を出す
+  selfie_use_head_transform: キャラ追従時に頭の位置を基準にする
+  mode: モード
+  mode_free: 自由移動
+  mode_first_person: 一人称視点
+  mode_selfie_stick: キャラを追従
+  live_move_step: ライブ中の移動幅
+  race_move_step: レース中の移動幅
+  look_step: 視点の回転幅
+  mouse_speed: マウス感度
+  live_fov: ライブ中の視野角
+  race_fov: レース中の視野角
+  gamepad_deadzone: ゲームパッドのデッドゾーン
+  gamepad_move_speed: ゲームパッドの移動速度
+  gamepad_look_speed: ゲームパッドの視点移動速度
+  live_target_position: ライブ中の追従対象の位置
+  live_target_part: ライブ中の追従対象の部位
+  live_selfie_horizontal_stabilization: ライブ中の水平追従の遊び
+  live_selfie_vertical_stabilization: ライブ中の垂直追従の遊び
+  live_follow_offset: ライブ中の追従位置のずれ
+  live_follow_lookat_offset: ライブ中の注視位置のずれ
+  live_follow_smooth: ライブ中の追従を滑らかにする
+  live_follow_smooth_lookat_step: ライブ中の視点追従の滑らかさ
+  live_follow_smooth_pos_step: ライブ中の位置追従の滑らかさ
+  live_first_person_offset: ライブ中の一人称視点のずれ
+  race_target_index: レース中の追従対象番号（-1 で自動）
+  race_follow_offset: レース中の追従位置のずれ
+  race_follow_distance: レース中の追従距離
+  race_first_person_lookat_offset: レース中の注視位置のずれ
+  overlay_mode: 'モード: %{mode}'
+  overlay_target: '対象: %{target}'
+  overlay_part: '部位: %{part}'
+  target_auto: 自動
+  target_gate: ゲート %{index}
+  key_move_forward: 前に移動
+  key_move_back: 後ろに移動
+  key_move_left: 左に移動
+  key_move_right: 右に移動
+  key_move_down: 下に移動
+  key_move_up: 上に移動
+  key_look_up: 上を見る
+  key_look_down: 下を見る
+  key_look_left: 左を見る
+  key_look_right: 右を見る
+  key_fov_increase: 視野角を広げる
+  key_fov_decrease: 視野角を狭める
+  key_follow_offset_up: 追従位置を上へ
+  key_follow_offset_down: 追従位置を下へ
+  key_follow_offset_left: 追従位置を左へ
+  key_follow_offset_right: 追従位置を右へ
+  key_target_previous: 前の対象
+  key_target_next: 次の対象
+  key_part_previous: 前の部位
+  key_part_next: 次の部位
+  key_reset: カメラ位置をリセット
+  key_cycle_mode: モードを切り替え
+  key_reverse: 追従カメラの向きを反転（前／後ろ）
+  cheatsheet_title: フリーカメラ操作ガイド
+  cheatsheet_contents: '# フリーカメラ操作ガイド
+
+    この機能は**レース**または**ライブ**でのみ使用できます。
+
+
+    初期設定の追従部位は**顔**です。
+
+
+    初期設定の追従対象は**Place01**です。
+
+
+    ## マウス操作
+
+    * **右クリックを押しながらドラッグ:** 視点を動かす
+
+    * **ホイールを上下:** 視野角を広げる／狭める
+
+
+    ---
+
+
+    ## ゲームパッド操作（Xbox／PlayStation）
+
+
+    ### 移動と視点
+
+    * **左スティック:** 左／右／前／後ろに移動
+
+    * **右スティック:** 左／右／上／下を見る
+
+    * **右トリガー（RT／R2）:** 上に移動
+
+    * **左トリガー（LT／L2）:** 下に移動
+
+    * **右ショルダー（RB／R1）:** 視野角を狭める
+
+    * **左ショルダー（LB／L1）:** 視野角を広げる
+
+
+    ---
+
+
+    ### 操作ボタン
+
+    * **Y**（△）: カメラ位置をリセット
+
+    * **X**（□）: カメラモードを切り替え
+
+    * **B**（○）: 追従カメラの向きを反転（キャラ追従時のみ）
+
+    * **A**（×）: ライブを一時停止／再開
+
+
+    ---
+
+
+    ### 十字キー（自由移動モードでは使用不可）
+
+    * **右:** 次の対象（キャラ追従／一人称視点）
+
+    * **左:** 前の対象（キャラ追従／一人称視点）
+
+    * **上:** 次の部位（キャラ追従時のみ）
+
+    * **下:** 前の部位（キャラ追従時のみ）
+
+    '
+update_prompt_dialog:
+  title: 新しい更新があります
+  content: 'Hachimi Edge の更新（%{version}）があります。インストールしますか？
+
+    更新の適用時にゲームを再起動します。
+
+    '
+  android_content: 'Hachimi Edge の更新（%{version}）があります。
+
+
+    UmaPatcher Edge を開いて更新を開始しますか？
+
+    '
+updating_dialog:
+  title: 更新中
+  content: 更新をダウンロードしています。まもなくゲームを再起動します...
+steam_overlay_conflict_dialog:
+  title: お知らせ
+  content: Hachimi の画面表示が有効な場合、購入できないことがあります。 Steam の購入画面がすでに表示されている場合は「いいえ」を押してください。 表示されなかった場合は「はい」を押すと、Hachimi の画面表示を一時的に無効にします。 ゲームが終了し、次回起動時に購入できる状態になります。 購入後にゲームを再起動すると、Hachimi の画面表示が再び有効になります。
+ingame_webview_dialog:
+  open_browser: ブラウザで開く
+  title:
+    notice: お知らせ
+    general: ゲーム内ブラウザ
+    gacha: ガチャ
+    help: ヘルプ
+key_names:
+  left: 左矢印
+  right: 右矢印
+  up: 上矢印
+  down: 下矢印
+  back: 戻る
+  insert: Insert
+  delete: Delete
+  home: Home
+  end: End
+  page_up: Page Up
+  page_down: Page Down
+  escape: Esc
+  tab: Tab
+  enter: Enter
+  space: Space
+  backspace: Backspace
+  clear: Clear
+  pause: Pause
+  caps_lock: Caps Lock
+  scroll_lock: Scroll Lock
+  num_lock: Num Lock
+  print_screen: Print Screen
+  left_win: 左 Windows
+  right_win: 右 Windows
+  apps: メニュー
+  alt: Alt
+  ctrl: Ctrl
+  shift: Shift
+  dpad_up: 十字キー上
+  dpad_down: 十字キー下
+  dpad_left: 十字キー左
+  dpad_right: 十字キー右
+  volume_up: 音量上
+  volume_down: 音量下
+  copy: コピー
+  cut: 切り取り
+  paste: 貼り付け
+  semicolon: ;
+  comma: ','
+  backslash: \
+  slash: /
+  left_bracket: '['
+  right_bracket: ']'
+  grave: '`'
+  minus: '-'
+  period: .
+  plus: +
+  equals: '='
+  numpad_0: テンキー 0
+  numpad_1: テンキー 1
+  numpad_2: テンキー 2
+  numpad_3: テンキー 3
+  numpad_4: テンキー 4
+  numpad_5: テンキー 5
+  numpad_6: テンキー 6
+  numpad_7: テンキー 7
+  numpad_8: テンキー 8
+  numpad_9: テンキー 9
+  numpad_add: テンキー +
+  numpad_subtract: テンキー -
+  numpad_multiply: テンキー *
+  numpad_divide: テンキー /
+  numpad_decimal: テンキー .
+  unknown: キー %{code}
