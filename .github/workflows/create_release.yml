@@ -58,6 +58,7 @@ jobs:
           RELEASE=1 ./tools/android/build.sh
         env:
           HACHIMI_IGNORE_DIRTY: "true"
+          HACHIMI_REPO_PATH: ${{ github.repository }}
 
       - name: Attest Android
         if: matrix.target == 'aarch64-linux-android'
@@ -114,6 +115,7 @@ jobs:
           mv build/${{ matrix.target }}/release/hachimi.dll build/
         env:
           HACHIMI_IGNORE_DIRTY: "true"
+          HACHIMI_REPO_PATH: ${{ github.repository }}
 
       - name: Build Cellar
         if: matrix.target == 'x86_64-pc-windows-msvc'
