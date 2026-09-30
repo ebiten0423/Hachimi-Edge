@@ -1,0 +1,17 @@
+pub mod AtomSourceEx;
+pub mod AudioControllerBase;
+pub mod AudioPlayback;
+pub mod AudioManager;
+pub mod CuteAudioSource;
+pub mod CuteAudioSourcePool;
+
+pub fn init() {
+    get_assembly_image_or_return!(image, "Cute.Cri.Assembly.dll");
+
+    AudioControllerBase::init(image);
+    AtomSourceEx::init(image);
+    AudioPlayback::init(image);
+    AudioManager::init(image);
+    CuteAudioSource::init(image);
+    CuteAudioSourcePool::init(image);
+}
